@@ -18,13 +18,14 @@ files:
     visible: true
     encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
     learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect solution
-  time: "Fri, 19 Apr 2024 05:31:03 UTC"
+  message: Congratulations!
+  time: "Fri, 19 Apr 2024 15:37:02 UTC"
 record: -1
 selected_options:
   - 0
+  - 2
   - 4
 custom_name: Overriding rules
 local_check: true
