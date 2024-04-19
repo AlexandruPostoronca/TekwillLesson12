@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: mammal.sing();
+    is_correct: false
+  - text: cat.motherChild();
+    is_correct: true
+  - text: cat.yell();
+    is_correct: false
+  - text: bird.fly();
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am2veUqlp63F5lxEAwbBQempXPsBIjeXs2wTZafI9V0nFYxAf1rSciieVcn3ovR1XW7F96QigVF2MqEKkuOQFlCwilnLcf//jYj92VS4hTEwvUVGEQ/uSTS7mmwsCaJOpVg==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 19 Apr 2024 05:27:52 UTC"
+record: -1
+selected_options:
+  - 1
+  - 3
+custom_name: Understanding methods availability
+local_check: true

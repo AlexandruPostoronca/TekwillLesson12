@@ -1,0 +1,29 @@
+<h2>Choose the class</h2>
+<p>You are given the following class hierarchy:</p>
+
+<pre><code>class A { }
+
+class B extends A { }
+
+class C extends B { }
+
+class D extends A { }</code></pre>
+
+<p>Besides that, there are two classes returning new instances of some of the classes above:</p>
+
+<pre><code>class Producer {
+    
+    public B produce() {
+        return new B();
+    }
+}
+
+class XXXProducer extends Producer {
+    
+    @Override
+    public XXX produce() {
+        return new XXX();
+    }
+}</code></pre>
+
+<p>Which classes can be used instead of <strong>XXX</strong> to successfully compile the code?</p>

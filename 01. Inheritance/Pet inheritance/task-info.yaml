@@ -1,0 +1,38 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: getBirthDate()
+    is_correct: true
+  - text: name
+    is_correct: true
+  - text: birthDate
+    is_correct: false
+  - text: setName(String name)
+    is_correct: false
+  - text: getName()
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+  - name: src/Pet.java
+    visible: true
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: true
+  - name: src/Cat.java
+    visible: true
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 17 Apr 2024 14:51:16 UTC"
+record: -1
+selected_options:
+  - 0
+  - 1
+  - 4
+custom_name: Pet inheritance
+local_check: true

@@ -1,0 +1,28 @@
+type: edu
+custom_name: Classes for Hospital
+files:
+  - name: src/Patient.java
+    visible: true
+    encrypted_text: k4/fFNlFgamz6XzSfG4odySonrEA5nH48kJ8qQGrOEc=
+    learner_created: false
+  - name: src/Person.java
+    visible: true
+    encrypted_text: 2xdc+E3RLiXWutEek/OcsfWc6xmzxYHzaQUQ1KdgLSA=
+    learner_created: false
+  - name: src/Employee.java
+    visible: true
+    encrypted_text: r3BkNAsaF8RTQ6c1uHJ08ntkyuEUa9B35rohYYLh6VE=
+    learner_created: false
+  - name: src/Doctor.java
+    visible: true
+    encrypted_text: s+TGdfvjy+RM50yrGAsRJFew+ATpNzqegGsgm8fPTWU=
+    learner_created: false
+  - name: test/MainTest.java
+    visible: false
+    encrypted_text: ITs8Nv8EH6QWJG5nufD7nElle2Be9bpyMzzlGqeI/wLwumcKTcWY86LlJhy5v9yvliQPBn26dDs28NbGcocoBqNPKxYipGzM18Ck9kyQ2kwPenmIn+bwcKD3R3VPzQkEbqrL9PuT+lNE80IZquYKNKyVyUZCM9PrzdFoa9TujAaiBkhxIGJV2ESbYBwzUNoGAljdi5bRdas7qWuHDJ1lgyvjOyovzTfQFwO49H5LxK9YDwyrGSGy2aPj6/fBqDnxjdKhuO8un3gVGJCfWaovHvlqP743d0MTQzeip0N3h/SzTx0JGwM0o0B9+C1b+jRtT8PPYGzyUgAh3paBmacdDzE59VOFeWhYhSKmt8K8Iy4S6VyajckETjtNoqOoizSKPZUIwH9o11+SE+1Dyp114NtCSFzm55FLMT6onRN4ZpNegRUG1yCEdTUzsbTDTGE9SCIsIQlXJYLea65A6JROpbgjs7jITdmNBPS/xaD7J5+3/wJOOhxXEdVRCYhkP5K/Av1+vV73P+UBb1uBfZVMAUCSKoHxCuBXcu7Yv4vYajBZ6RyxOQh84YghlWHI9wL2TCaAwPAJDyeqbOhIPF4l0nBMehHwaF7eXUHtoQVZngG7E2jn9MfW04r3dB7HTraetaLOX28iSGeLyaSAUdq7HnucDGL4DDul7JtMeNNuzZMDHUVoCmime1B6uo+n4Vw6dfJ27CL+irEoEoicgLIVXk/y1qjSiYLDfAFPIKL1Vv/1jbDF7eJYhxqyvOk1V71SinF6nxVfUO90i/ykVdRzVDy/1nzkWeivKvNUeaafZvi+Im8XKg+yo0SA3HKirzUNDhT37jGSK5moZObRRcJdyBmia5XwwADP2gykpet5s2lnQQO1qF6gjG/OigV359H/AuhxIOOg73vZmS+nwBIOfqvKC0cGpoK4bu3LOSOezc8cjgdGf/FFx56sUSytR4wcUoNwDHbeiS+Inoeb1qHwrOaeLCccJIec6w4SVyGW009k0Q412rg0heFfP1jZXZMRccFclbyZ5gswbuh7PYOfVIM9udUCHHgCD8YEiXps0cTEgrJDnDkZ8NMC8+t44v7GK1LH4VNIkLGhzb5mKlLbl4XaYFzebC3HlWcqJDaonJDcULNksYIliMyATadGk4zFEjh/wZdozRT4M1uOwDCsG6h9YiWQS+6tsPKrf0Y/kyFmDmR3cdrOU7OWF4tdICD4nS5NvNBflGFTLpv1scioOqgGU0wbPAPxU9rq9+fFperq89N8O9lEJP+aguKWY84+MBeyMb9/AyegozKmGgP/qv24wfhI07VunK6KBLpTe+jWhDJYitR3fCCgejz5mCRl
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 17 Apr 2024 14:26:27 UTC"
+record: -1

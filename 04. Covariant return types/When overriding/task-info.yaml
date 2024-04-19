@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "a subclass method can return the same type as the superclass method or its\
+    \ subclass, or its superclass."
+    is_correct: false
+  - text: "a subclass method can return only the same type as the superclass method,\
+    \ neither its subclass, nor its superclass."
+    is_correct: false
+  - text: a subclass method can return the same type as the superclass method or its
+      subclass.
+    is_correct: true
+  - text: a subclass method can return the same type as the superclass method or its
+      superclass.
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am2veUqlp63F5lxEAwbBQempXPsBIjeXs2wTZafI9V0nFYxAf1rSciieVcn3ovR1XW7F96QigVF2MqEKkuOQFlCwilnLcf//jYj92VS4hTEwvUVGEQ/uSTS7mmwsCaJOpVg==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 19 Apr 2024 05:22:32 UTC"
+record: -1
+selected_options:
+  - 2
+custom_name: When overriding
+local_check: true

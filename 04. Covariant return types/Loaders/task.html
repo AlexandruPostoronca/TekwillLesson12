@@ -1,0 +1,33 @@
+<h2>Loaders</h2>
+<p>You are given the following hierarchy of classes:</p>
+
+<pre><code>class File { }
+
+class TextFile extends File { }
+
+class MediaFile extends File { }
+
+class Soundtrack extends MediaFile { }
+
+class Movie extends MediaFile { }
+
+class Folder { }</code></pre>
+
+<p>There are two class loaders (but they don't work):</p>
+
+<pre><code>class BaseLoader {
+    
+    public MediaFile load(String path) {
+        return new MediaFile(); // load and return
+    }
+}
+
+class Loader extends BaseLoader {
+    
+    @Override
+    public XXX load(String path) {
+        return null; // just for example :)
+    }
+}</code></pre>
+
+<p>What class can be written instead of <strong>XXX</strong> to compile the code? Select all that apply.</p>

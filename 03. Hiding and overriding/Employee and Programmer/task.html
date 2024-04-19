@@ -1,0 +1,29 @@
+<h2>Employee and Programmer</h2>
+<p>There are two classes: <code>Employee</code> and <code>Programmer</code>.</p>
+
+<pre><code>class Employee {
+    
+    protected long baseSalary;
+
+    public Employee(long baseSalary) {
+        this.baseSalary = baseSalary;
+    }
+
+    public long calcSalary() {
+        return baseSalary;
+    }
+}
+
+class Programmer extends Employee {
+
+    private int yearsOfExperience;
+    
+    public Programmer(long baseSalary, int yearsOfExperience) {
+        super(baseSalary);
+        this.yearsOfExperience = yearsOfExperience;
+    }
+
+    // overridden calcSalary
+}</code></pre>
+
+<p>Select a correctly overridden method <code>calcSalary</code> in the class <code>Programmer</code>.</p>

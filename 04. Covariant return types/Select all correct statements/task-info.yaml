@@ -1,0 +1,34 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "If the superclass method returns A, then an overriding subclass method also\
+    \ can return A."
+    is_correct: true
+  - text: "If the superclass method returns A, then an overriding subclass method can\
+    \ return B when B extends A."
+    is_correct: true
+  - text: "If the superclass method returns long, then an overriding subclass method\
+    \ can return int."
+    is_correct: false
+  - text: "If the superclass method returns int, then an overriding subclass method\
+    \ can return long."
+    is_correct: false
+  - text: "If the superclass method returns A, then an overriding subclass method can\
+    \ return B when A extends B."
+    is_correct: false
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am2veUqlp63F5lxEAwbBQempXPsBIjeXs2wTZafI9V0nFYxAf1rSciieVcn3ovR1XW7F96QigVF2MqEKkuOQFlCwilnLcf//jYj92VS4hTEwvUVGEQ/uSTS7mmwsCaJOpVg==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 19 Apr 2024 05:22:25 UTC"
+record: -1
+selected_options:
+  - 0
+  - 1
+custom_name: Select all correct statements
+local_check: true

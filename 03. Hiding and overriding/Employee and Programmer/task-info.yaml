@@ -1,0 +1,39 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "public long calcSalary(long coefficient) { return coefficient * 500 + super.baseSalary;\
+    \ }"
+    is_correct: false
+  - text: "public void calcSalary() { this.baseSalary = 40_000L; }"
+    is_correct: false
+  - text: "public long calcProgrammerSalary() { return yearsOfExperience * 500 + super.baseSalary;\
+    \ }"
+    is_correct: false
+  - text: "public long calcSalary() { return yearsOfExperience * 500 + super.baseSalary;\
+    \ }"
+    is_correct: true
+  - text: "protected long calcSalary() { return yearsOfExperience * 500 + super.baseSalary;\
+    \ }"
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+  - name: src/Programmer.java
+    visible: true
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: true
+  - name: src/Employee.java
+    visible: true
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 17 Apr 2024 17:03:09 UTC"
+record: -1
+selected_options:
+  - 3
+custom_name: Employee and Programmer
+local_check: true

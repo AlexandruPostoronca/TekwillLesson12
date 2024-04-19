@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: method3
+    is_correct: false
+  - text: method1
+    is_correct: true
+  - text: method2
+    is_correct: false
+  - text: staticMethod
+    is_correct: false
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 18 Apr 2024 21:22:05 UTC"
+record: -1
+selected_options:
+  - 1
+custom_name: Which methods will be overridden
+local_check: true

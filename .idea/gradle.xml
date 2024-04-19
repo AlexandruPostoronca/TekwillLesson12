@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/01. Inheritance/Access members inside child classes" />
+            <option value="$PROJECT_DIR$/01. Inheritance/Classes for Hospital" />
+            <option value="$PROJECT_DIR$/01. Inheritance/Find the same hierarchy" />
+            <option value="$PROJECT_DIR$/01. Inheritance/Incorrect class hierarchies" />
+            <option value="$PROJECT_DIR$/01. Inheritance/Inheriting members" />
+            <option value="$PROJECT_DIR$/01. Inheritance/Pet inheritance" />
+            <option value="$PROJECT_DIR$/01. Inheritance/The lost modifier" />
+            <option value="$PROJECT_DIR$/01. Inheritance/Theory" />
+            <option value="$PROJECT_DIR$/02. The keyword super/Accessing constructors of a base class" />
+            <option value="$PROJECT_DIR$/02. The keyword super/Bank account" />
+            <option value="$PROJECT_DIR$/02. The keyword super/Employees" />
+            <option value="$PROJECT_DIR$/02. The keyword super/Fix the non-compiled hierarchy" />
+            <option value="$PROJECT_DIR$/02. The keyword super/Statements" />
+            <option value="$PROJECT_DIR$/02. The keyword super/Theory" />
+            <option value="$PROJECT_DIR$/02. The keyword super/When the keyword cannot be used" />
+            <option value="$PROJECT_DIR$/02. The keyword super/When the keyword is used" />
+            <option value="$PROJECT_DIR$/02. The keyword super/Why we use the super keyword" />
+            <option value="$PROJECT_DIR$/03. Hiding and overriding/Correctly overridden methods" />
+            <option value="$PROJECT_DIR$/03. Hiding and overriding/Employee and Programmer" />
+            <option value="$PROJECT_DIR$/03. Hiding and overriding/Incorrectly overridden methods" />
+            <option value="$PROJECT_DIR$/03. Hiding and overriding/Overriding rules" />
+            <option value="$PROJECT_DIR$/03. Hiding and overriding/Publications" />
+            <option value="$PROJECT_DIR$/03. Hiding and overriding/Rules for overriding" />
+            <option value="$PROJECT_DIR$/03. Hiding and overriding/Rules for overriding 2" />
+            <option value="$PROJECT_DIR$/03. Hiding and overriding/Saying animals" />
+            <option value="$PROJECT_DIR$/03. Hiding and overriding/Shapes area" />
+            <option value="$PROJECT_DIR$/03. Hiding and overriding/Statements" />
+            <option value="$PROJECT_DIR$/03. Hiding and overriding/Theory" />
+            <option value="$PROJECT_DIR$/03. Hiding and overriding/Unusual overriding" />
+            <option value="$PROJECT_DIR$/03. Hiding and overriding/Which methods cannot be overridden" />
+            <option value="$PROJECT_DIR$/03. Hiding and overriding/Which methods will be overridden" />
+            <option value="$PROJECT_DIR$/04. Covariant return types/Choose the class" />
+            <option value="$PROJECT_DIR$/04. Covariant return types/Correct overriding" />
+            <option value="$PROJECT_DIR$/04. Covariant return types/Covariance by pictures" />
+            <option value="$PROJECT_DIR$/04. Covariant return types/Instance returners" />
+            <option value="$PROJECT_DIR$/04. Covariant return types/Loaders" />
+            <option value="$PROJECT_DIR$/04. Covariant return types/Select all correct statements" />
+            <option value="$PROJECT_DIR$/04. Covariant return types/Theory" />
+            <option value="$PROJECT_DIR$/04. Covariant return types/What does the feature mean" />
+            <option value="$PROJECT_DIR$/04. Covariant return types/When overriding" />
+            <option value="$PROJECT_DIR$/05. Protected modifier/Find the mistake" />
+            <option value="$PROJECT_DIR$/05. Protected modifier/Protected and default modifiers" />
+            <option value="$PROJECT_DIR$/05. Protected modifier/Recommended rule" />
+            <option value="$PROJECT_DIR$/05. Protected modifier/Theory" />
+            <option value="$PROJECT_DIR$/05. Protected modifier/Understanding methods availability" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: A static method cannot be overridden but can be hidden.
+    is_correct: true
+  - text: "To override a method, the method signature in the subclass must be the same\
+    \ as in the superclass."
+    is_correct: true
+  - text: "To override a method, it's required to write @Override annotation."
+    is_correct: false
+  - text: Private methods can be overridden.
+    is_correct: false
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 18 Apr 2024 21:17:41 UTC"
+record: -1
+selected_options:
+  - 0
+  - 1
+custom_name: Statements
+local_check: true

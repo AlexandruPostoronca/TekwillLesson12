@@ -1,0 +1,23 @@
+type: marketplace
+title: 12. Inheritance
+language: English
+summary: |-
+  This is an introductory course about Inheritance in Java.
+    - 01. Inheritance
+    - 02. The keyword super
+    - 03. Hiding and overriding
+    - 04. Covariant return types
+    - 05. Protected modifier
+programming_language: Java
+programming_language_version: 17
+content:
+  - 01. Inheritance
+  - 02. The keyword super
+  - 03. Hiding and overriding
+  - 04. Covariant return types
+  - 05. Protected modifier
+mode: Study
+environment_settings:
+  jvm_language_level: JDK_17
+vendor:
+  name: Alexandru Umaneț

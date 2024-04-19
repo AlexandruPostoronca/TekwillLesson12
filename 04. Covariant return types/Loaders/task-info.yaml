@@ -1,0 +1,32 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Soundtrack
+    is_correct: true
+  - text: Folder
+    is_correct: false
+  - text: Movie
+    is_correct: true
+  - text: TextFile
+    is_correct: false
+  - text: File
+    is_correct: false
+  - text: MediaFile
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am2veUqlp63F5lxEAwbBQempXPsBIjeXs2wTZafI9V0nFYxAf1rSciieVcn3ovR1XW7F96QigVF2MqEKkuOQFlCwilnLcf//jYj92VS4hTEwvUVGEQ/uSTS7mmwsCaJOpVg==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 19 Apr 2024 05:19:21 UTC"
+record: -1
+selected_options:
+  - 0
+  - 2
+  - 5
+custom_name: Loaders
+local_check: true

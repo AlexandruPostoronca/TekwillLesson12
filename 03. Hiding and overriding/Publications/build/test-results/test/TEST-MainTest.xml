@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-04-18T21:46:48" hostname="DESKTOP-A97GDF4" time="0.046">
+  <properties/>
+  <testcase name="newspaperTest" classname="MainTest" time="0.021"/>
+  <testcase name="publicationTest2" classname="MainTest" time="0.001"/>
+  <testcase name="newspaperTest2" classname="MainTest" time="0.005"/>
+  <testcase name="announcementTest" classname="MainTest" time="0.011"/>
+  <testcase name="articleTest2" classname="MainTest" time="0.002"/>
+  <testcase name="announcementTest2" classname="MainTest" time="0.002"/>
+  <testcase name="articleTest" classname="MainTest" time="0.002"/>
+  <testcase name="publicationTest" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

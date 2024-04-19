@@ -1,0 +1,69 @@
+<h2>Understanding methods availability</h2>
+<p>There are four classes within different packages.</p>
+
+<p>Read the source code and pick the legal method calls.</p>
+
+<pre><code>package birds;
+
+/**
+ * Bird class
+ */
+public class Bird {
+
+    public void fly(){
+        System.out.println("Goodbye, I'm flying away");
+    }
+
+    protected void sing(){
+        System.out.println("I'm singing!");
+    }
+}
+
+// --------------------
+
+package mammals.felines;
+
+import mammals.Mammal;
+
+/**
+ * Cat class
+ */
+public class Cat extends Mammal { }
+
+// --------------------
+
+package mammals;
+
+/**
+ * Mammal class
+ */
+public class Mammal {
+
+    protected void motherChild(){
+        System.out.println("My baby was just born");
+    }
+
+    void yell(){
+        System.out.println("I am a mammal!");
+    }
+}
+
+// --------------------
+
+package mammals;
+
+import birds.Bird;
+import mammals.Mammal;
+import mammals.felines.Cat;
+
+/**
+ * The main class
+ */
+public class Main {
+
+    public static void main(String[] args) {
+        Cat cat = new Cat();
+        Bird bird = new Bird();
+        Mammal mammal = new Mammal();
+    }
+}</code></pre>

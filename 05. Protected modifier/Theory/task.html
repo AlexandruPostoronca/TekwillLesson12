@@ -1,0 +1,122 @@
+<h2>Protected modifier</h2>
+<p>As you may remember, an access modifier describes who can use your piece of code. There are 4 of them in Java:</p>
+<ul>
+    <li><code>private</code>: available only for the class itself;</li>
+    <li><code>default</code>: available for classes from the same package (= <strong>package-private</strong>);</li>
+    <li><code>protected</code>: available for classes from the same package and the extending classes.</li>
+    <li><code>public</code>: available from everywhere;</li>
+</ul>
+<p>We've already considered most of them, but there's the most interesting one left:<strong> </strong>the <code>protected</code>
+    access modifier. Let's place it among the modifiers you already know:</p>
+<p><img alt="" src="12.06.01.png" width="792" style="margin: auto;"></p>
+<p>This modifier determines that only subclasses and any classes from the same package can use a class member. A
+    top-level class, which is a non-nested independent class defined in a <code>.java</code> file, can't be protected,
+    but an inner one can be declared this way. This is where the importance of a proper package decomposition comes in.
+</p>
+<p>Now let's discuss the difference between <code>protected</code> and its scale neighbors, <code>private</code> and
+    <strong>"</strong>package-private<strong>" </strong>(<code>default</code>).</p>
+
+<h4>Protected vs default</h4>
+<p><strong> </strong>You can think of classes from the same package as the neighbors and subclasses as the children of a
+    particular class. There are some things you can share or do with your neighbors, for example, discuss a maintenance
+    plan or share the basement. These things and actions would be package-private<strong> </strong>(<code>default</code>).
+</p>
+<p>There are also things you can do for children and close friends, like borrow some money or go for a walk in a park on
+    Sunday. These things will be <code>protected</code>.</p>
+
+<h4>Protected vs private</h4>
+<p><strong> </strong>This distinction is even easier: if a variable, a method, or an inner class is used only by the
+    class itself, then it is <code>private</code>, otherwise, it is <code>protected</code>. Following the main rule:</p>
+
+<p></p>
+<div>Use the most restrictive access level that makes sense for a particular member.</div>
+
+<p>If you're not sure whether the method is useful for other classes, it’s better to first make it private and expand
+    its availability later if needed. </p>
+
+<h4>Example</h4>
+<p>Now let's see how all of this works in practice. In the example below, the package
+    <code>org.aumanet.bluetooth</code> has three classes: <code>Laptop</code>, <code>SmartPhone</code>, and <code>SmartWatch</code>.
+    All the gadgets in the package can be connected via Bluetooth. <code>Laptop</code> has a method
+    <code>receiveInfo()</code>, responsible for getting any information from connected gadgets.</p>
+<pre><code>package org.aumanet.bluetooth;
+
+public class Laptop {
+
+    private String info;
+
+    void receiveInfo(String info) {
+        this.info = info;
+    }
+
+}</code></pre>
+<p>The <code>Laptop</code> class has only a single field <code>info</code> which is not directly accessible since it is
+    declared as private. But all classes from the same package can access it invoking the <code>receiveInfo</code>
+    method which is declared as package-private (no modifier).</p>
+<p>We consider that <code>SmartPhone</code> and <code>SmartWatch</code> classes extend the same
+    <code>MobileGadget</code> class with the <code>printNotification</code> method:</p>
+<pre><code>package org.aumanet.bluetooth;
+
+public class MobileGadget {
+
+    protected void printNotification(String data) {
+        System.out.println(data);
+    }
+}</code></pre>
+<p>The <code>printNotification</code> method is accessible for all subclasses of this class as well as for all classes
+    in the same package (including the <code>Laptop</code> class).</p>
+<p>The <code>SmartPhone</code> class can access the <code>receiveInfo</code> method of the <code>Laptop</code> class and
+    the <code>printNotification</code> method of the <code>MobileGadget</code> class.</p>
+<pre><code>package org.aumanet.bluetooth;
+
+public class SmartPhone extends MobileGadget {
+
+    private Laptop connectedLaptop;
+
+    public SmartPhone() {
+        this.connectedLaptop = new Laptop();
+    }
+
+    private void sendInfoToLaptop(String data) {
+        printNotification("Sending data to laptop : "  + data);
+        connectedLaptop.receiveInfo(data);
+    }
+}</code></pre>
+<p>The <code>SmartWatch</code> class has a private method <code>countHeartRate</code>, which is not available from other
+    classes (even from a “brother” class <code>SmartPhone</code>). It also uses the <code>Laptop</code>'s method of
+    receiving data and a parent's method to print the notification:</p>
+<pre><code>package org.aumanet.bluetooth;
+
+public class SmartWatch extends MobileGadget {
+
+    private int avgHeartRate;
+    private Laptop connectedLaptop;
+
+    public SmartWatch() {
+        this.avgHeartRate = 75;
+        this.connectedLaptop = new Laptop();
+    }
+
+    private int countHeartRate() {
+        System.out.println("Counting heart rate");
+        return avgHeartRate;
+    }
+
+    private void sendInfoToLaptop(String data) {
+        printNotification("Sending data to laptop : "  + data);
+        connectedLaptop.receiveInfo(data);
+    }
+}</code></pre>
+<p>We hope all modifiers are clear now!</p>
+
+<h4>Let's recap</h4>
+<p>Now, it's time to put all the access modifiers together:</p>
+<p><img alt="" src="12.06.02.png" width="789" style="margin: auto;"></p>
+<p>The scheme is the same as it was earlier, but the questions now are specified with regard to inheritance. </p>
+
+<h4>Conclusion</h4>
+<p>In this topic, you learned about the <code>protected</code> access modifier, its position among the other access
+    modifiers, and how it differs from the <code>private</code> and <strong>"</strong>package-private<strong>" </strong>(<code>default</code>)
+    modifiers. We also saw how the modifiers work in an example and how to choose between them. Now, it's time to
+    practice!</p>
+

@@ -1,0 +1,20 @@
+<h2>Find the mistake</h2>
+<p>Read the code snippet below:</p>
+
+<pre><code>package com.mypackage;
+
+public class A {
+    protected A(){
+        //protected constructor
+    }
+}</code></pre>
+
+<pre><code>package com.anotherpackage;
+
+import com.mypackage.A;
+
+public class B {
+    private A a = new A();
+}</code></pre>
+
+<p>Why does this code produce a compilation error?</p>

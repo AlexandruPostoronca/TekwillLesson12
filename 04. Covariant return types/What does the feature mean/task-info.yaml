@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "A child class can have a different return type for the overriding method,\
+    \ but the child’s return type should be a sub-type of the parent’s return type."
+    is_correct: true
+  - text: "A child class cannot have a different return type for the overriding method,\
+    \ only the same one as in the base class."
+    is_correct: false
+  - text: "A child class can have a different return type for the overriding method,\
+    \ but the child’s return type should be a super-type of the parent’s return type."
+    is_correct: false
+  - text: A child class cannot have the same return type for a overriding method.
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am2veUqlp63F5lxEAwbBQempXPsBIjeXs2wTZafI9V0nFYxAf1rSciieVcn3ovR1XW7F96QigVF2MqEKkuOQFlCwilnLcf//jYj92VS4hTEwvUVGEQ/uSTS7mmwsCaJOpVg==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 18 Apr 2024 21:48:18 UTC"
+record: -1
+selected_options:
+  - 0
+custom_name: What does the feature mean
+local_check: true

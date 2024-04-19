@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: '... same name as a method in the base class'
+    is_correct: true
+  - text: '... same or more restrictive access modifier than the method in the base
+    class'
+    is_correct: false
+  - text: '... same argument list as a method in the base class'
+    is_correct: true
+  - text: '... annotation @Override'
+    is_correct: false
+  - text: '...  same returning type (or its subclass)'
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+status: Failed
+feedback:
+  message: Incorrect solution
+  time: "Fri, 19 Apr 2024 05:31:03 UTC"
+record: -1
+selected_options:
+  - 0
+  - 4
+custom_name: Overriding rules
+local_check: true

@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: public instance methods
+    is_correct: false
+  - text: public static methods
+    is_correct: true
+  - text: private instance methods
+    is_correct: true
+  - text: overloaded methods
+    is_correct: false
+  - text: final methods
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 18 Apr 2024 21:19:42 UTC"
+record: -1
+selected_options:
+  - 1
+  - 2
+  - 4
+custom_name: Which methods cannot be overridden
+local_check: true

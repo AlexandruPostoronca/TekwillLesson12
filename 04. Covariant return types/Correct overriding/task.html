@@ -1,0 +1,61 @@
+<h2>Correct overriding</h2>
+<p>You have the following class hierarchy:</p>
+
+<pre><code>class A { }
+
+class B extends A { }
+
+class C extends B { }</code></pre>
+
+<p>Which methods are overridden correctly according to the covariant return type principle?</p>
+
+<pre><code>class SuperClass {
+    
+    public A method1() {
+        return new A();
+    }
+    
+    public A method2() {
+        return new A();
+    }
+    
+    public C method3() {
+        return new C();
+    }
+    
+    public SuperClass getInstance() {
+        return new SuperClass();
+    }
+
+    public long method4() {
+        return 0L;
+    }
+}
+
+class SubClass extends SuperClass {
+    
+    @Override
+    public B method1() {
+        return new B();
+    }
+    
+    @Override
+    public C method2() {
+        return new C();
+    }
+    
+    @Override
+    public B method3() {
+        return new B();
+    }
+
+    @Override
+    public SubClass getInstance() {
+        return new SubClass();
+    }
+
+    @Override
+    public int method4() {
+        return 0;
+    }
+}</code></pre>

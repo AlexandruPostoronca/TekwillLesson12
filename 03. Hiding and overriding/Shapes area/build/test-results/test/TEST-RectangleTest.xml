@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RectangleTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-04-18T21:16:41" hostname="DESKTOP-A97GDF4" time="0.001">
+  <properties/>
+  <testcase name="testRectangleAreaWithMaxValues" classname="RectangleTest" time="0.0"/>
+  <testcase name="testRectangleAreaWithZeroWidth" classname="RectangleTest" time="0.001"/>
+  <testcase name="testRectangleArea" classname="RectangleTest" time="0.0"/>
+  <testcase name="testRectangleAreaWithSmallValues" classname="RectangleTest" time="0.0"/>
+  <testcase name="testRectangleAreaWithZeroLength" classname="RectangleTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

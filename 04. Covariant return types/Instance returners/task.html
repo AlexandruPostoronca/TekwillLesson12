@@ -1,0 +1,49 @@
+<h2>Instance returners</h2>
+<p>You have the following hierarchy of classes:</p>
+
+
+
+<pre><code>class A { }
+
+class B extends A { }
+
+class C extends B { }
+
+class D extends B { }
+
+class E extends A { }
+
+class F extends B { }</code></pre>
+
+
+
+<p>There are two classes which return instances of some classes above.</p>
+
+
+
+<pre><code>class BaseReturner {
+    
+    public XXX get() {
+        return new C();
+    }
+}
+
+class CReturner extends BaseReturner {
+    
+    @Override
+    public C get() {
+        return new C();
+    }
+}
+
+class FReturner extends BaseReturner {
+    
+    @Override
+    public F get() {
+        return new F();
+    }
+}</code></pre>
+
+
+
+<p>What class can be written instead of XXX to compile the code above? Select all that apply.</p>

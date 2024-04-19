@@ -1,0 +1,37 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "A, E"
+    is_correct: false
+  - text: "B, C, D"
+    is_correct: false
+  - text: "OBJ, A, B, C, D, E"
+    is_correct: false
+  - text: "A, C, D"
+    is_correct: false
+  - text: "A, B, C, D"
+    is_correct: true
+  - text: A
+    is_correct: false
+  - text: "A, B, C"
+    is_correct: false
+  - text: "OBJ, A"
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am2veUqlp63F5lxEAwbBQempXPsBIjeXs2wTZafI9V0nFYxAf1rSciieVcn3ovR1XW7F96QigVF2MqEKkuOQFlCwilnLcf//jYj92VS4hTEwvUVGEQ/uSTS7mmwsCaJOpVg==
+    learner_created: false
+  - name: 12.05.02.png
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 18 Apr 2024 21:50:39 UTC"
+record: -1
+selected_options:
+  - 4
+custom_name: Covariance by pictures
+local_check: true

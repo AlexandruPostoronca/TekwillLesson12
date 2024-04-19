@@ -1,0 +1,28 @@
+type: edu
+custom_name: Saying animals
+files:
+  - name: src/Animal.java
+    visible: true
+    encrypted_text: f/YYN8YhjqDqzQFBPzHkrwyqaTZ5pgTfhdulQ7oHkA0CvBLCG3whGKoOooR2Pa9FHEPE7usfLe50mqHUoTPS22NzEhFgp038mkMRXh0WUtVfa1uGYObqqPFtn7Kk6IWR2faCLfaALHboc0jVVqd7rxXHK8rYmqxJHMxUTWK7CF8=
+    learner_created: false
+  - name: src/Cat.java
+    visible: true
+    encrypted_text: 6qy64mwhE2+DHi9Z73tj4LzBlwCSsE0PkFBJ8jaCfdXuJ+li+UX9jY4UFlc5dHT9
+    learner_created: false
+  - name: src/Dog.java
+    visible: true
+    encrypted_text: W7PPovY9bIaxyk5+pyATG8uGzbaN7683irj0rxmOoUlUdDR12i2U30afHoiAR7M9
+    learner_created: false
+  - name: src/Duck.java
+    visible: true
+    encrypted_text: 9tNKIZCfDKOVuOG4lfBafuDL9Fl1Q2gbwxsRINR8AAKf/om1Z6Gfi07NQQvltErq
+    learner_created: false
+  - name: test/MainTest.java
+    visible: false
+    encrypted_text: 0SK8Vwz84VZFONcwEGyRkWI/gpBFCAxMhZWTZoGgnAaabvZzjlsZL/qxqwfjNEDwQukP4sK2jBSsSej5CLvq4CrV8xOUDL8ojUOhymaQTA7z9ahD9SIzAY9uN0U3TUSF8rQwO5NM4yPQv+BtBDFfDCIgOMuwvq8XDSUFgD9z5o3gJrBcgtuk38lCBENA1Vy8GZJwhMJfBodF4es0cdmb/f7BjpQXiFWm4+nJyKR/5UqJMzrZ/GwpC2YtQjJaBzIc9+vaE6D/3EJgIJo8pqa8WyA2Fuvaio9diK1fRjtHWoW9nYVeYWYqjuzTcxYzSAX5zt2RYfwm76F3IQ9G4W7G2yYoH3xN3DDLOKSPStayWS7U94fov+OGxdbyw+PVlCQ5wSyaGp4TdzQT8YarcL2WFLCbmAdFpMR8fhfm9iJJCGlDzisB1RoT0XS+FLK6ODSJAROnFbpazbMgZj95lHshntzGjlLHo9X3c9JZQuNyazhy17mTIsUtr+vb8UzBvIWsarFw1AWNSOkCvuGXTVXVGhWtxqy7IFWnZQ0QdwFd98SrkUra73BGmLTsISQ4LEIO0BwNzRApLO0aYjIs8OGq+Q6/E0q+35QhEjQ/UiBr7uVlUpI6JYPsLA+JBNsDFJyTEHEp0TxnDU3LpM/a+2gGaKgvLjQezz1+bpSb2Wq8eaIKibt8RdSHpPGNQrokxvWYcMmO6vfQPHz9CYFicAaVdoJrLiJejX6ttVRIUPA4MYYMtfg+PnpZSJfHMEWXobHJaOSmjGVdZ4N/UBEnhL3qsz2hDNGkStyGIZCSChOIv8gECqnrypkJzbboHbk13xJzyQkza1ZY0dBf3XfNiOl8P+gY4kkWP367V4AoJYC2YZ+P8O4t44UY+MqtL7Y9GozLoNda2jeW2jObk2GSQgpW2gBcuyir1Sk+z5vDqTnpwqmvlVKcBI8Tm40s08hJ9DS21qw2emWPtB7KLrFYhLtpqvjHRHfFsXilCkpDPvbXGeP+d4FSkpoH6BSFTPCjXHoLRGuYnm/lBV8LYBG5d+1Liq3/UQiRGRAArWrGwDKZ74EAm5rg1Nf6LzY//qtX5VNo6e71q7044TdisbJoqtDqpMVMn/SMSRxcH/dEeHMcGe5auKP1cfdIUYmFFrPWjUFoqSmPRoweWUlBT6LDR6eKdhAAz4YDezuAk0ZvmF7YoKT0Z4rwqdnUqZzssbL/OR/RXgRgIBK+GKSFYTHTD37c7VQqv0Zq8uh5aBK6U+XakmEg57zo41WAtLLwwmlP3oyuw4BaGkGL+n5f9McHnZ5EroQ+J0gk39CxVJBUHAxVs3Zo0vWUT7WNZGaLyAMX0AP+JdpcflVOenfhim8VrrnsW1xfeU0E6Nq/jgNuAQPePIKpOksd1xuheWOvp12RyNuxWBkslhXsm21uMajR3PqIdZEdO1ezDg4aU6b4Y5P8g7lfBhkk+mvxD14L/qAs8ZmIq3ayNR1A5O9sqj4FtyMydaVs9zhVjbrs61FoM5jQks/JwksPlfgef29A/MGuVVBl6zmB6ChR17fJLdzmRoSffwtHSN12V8uSAP2WS8NyWxN1hpW2HV5/NSrxqBN9tcjsCIgHNLs5tOBML0fNUrTyJg==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 17 Apr 2024 20:49:00 UTC"
+record: -1

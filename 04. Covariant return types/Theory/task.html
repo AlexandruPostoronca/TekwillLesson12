@@ -1,0 +1,64 @@
+<h2>Covariant return types</h2>
+<p>As you already know, <strong>method overriding</strong> is a mechanism for providing new behavior for the superclass
+    method in a subclass method.</p>
+<p>Method overriding follows a set of specific rules. When you override a superclass method, the name and parameters of
+    a subclass method have to be exactly the same as that of the superclass method. The situation with the return type,
+    however, is slightly different. The subclass method can return the same type as the superclass method or a subtype
+    of this return type. This feature is known as the <strong>covariant return type</strong>.</p>
+
+<h4>How it works</h4>
+<p>Covariant return type allows you to narrow (but not widen) the return type of the overridden method, that is to make
+    it more specific.</p>
+<p>The following picture demonstrates the covariance with respect to the type B. If the superclass method returns B,
+    then an overriding subclass method can return B, D or E, but not A, C or F.</p>
+<p><img alt="" src="12.05.01.png" width="446px" style="margin: auto;"></p>
+<p><strong>Covariance with respect to the type B </strong></p>
+<p>Let's consider the following code:</p>
+<pre><code>class SuperType { }
+
+class SubType extends SuperType { }
+
+class A {
+    
+    public SuperType getType() {
+        return new SuperType();
+    }
+}
+
+class B extends A {
+    
+    @Override
+    public SubType getType() {
+        return new SubType();
+    }
+}</code></pre>
+<p>In this example, the class <code>SubType</code> inherits from <code>SuperType</code>. The method <code>getType</code>
+    of <code>A</code> returns an instance of <code>SuperType</code>, but the overridden method <code>getType</code> of
+    the class <code>B</code> (that extends A) returns an instance of <code>SubType</code>. There are no compile-time
+    errors, this overriding works perfect.</p>
+<p>The next example, though, doesn't compile:</p>
+<pre><code>class A {
+    
+    public SubType getType() {
+        return new SubType();
+    }
+}
+
+class B extends A {
+    
+    @Override
+    public SuperType getType() {
+        return new SuperType();
+    }
+}</code></pre>
+<p>Here, the method <code>getType</code> of the class <code>A</code> returns an instance of <code>SubType</code>, while
+    the overridden method <code>getType</code> of the class <code>B</code> returns an instance of <code>SuperType</code>.
+    It's not a covariant return type so this code does not compile.</p>
+
+<h4>Summary</h4>
+<p>Remember, when overriding the return type of a subclass method can be the same type or a subclass of the return type
+    of a superclass method. Covariance is always changing down the hierarchy.</p>
+<p></p>
+<div>It is also important to note that the covariant return types are possible only for non-primitive return types.
+</div><p></p>
+

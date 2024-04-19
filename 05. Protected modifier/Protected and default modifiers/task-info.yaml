@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: also available for classes from sub-packages.
+    is_correct: false
+  - text: also available for all the extending classes.
+    is_correct: true
+  - text: not available for classes from the same package.
+    is_correct: false
+  - text: available only for the extending classes from the same package.
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am2veUqlp63F5lxEAwbBQempXPsBIjeXs2wTZafI9V0nFYxAf1rSciieVcn3ovR1XW7F96QigVF2MqEKkuOQFlCwilnLcf//jYj92VS4hTEwvUVGEQ/uSTS7mmwsCaJOpVg==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 19 Apr 2024 05:26:22 UTC"
+record: -1
+selected_options:
+  - 1
+custom_name: Protected and default modifiers
+local_check: true
